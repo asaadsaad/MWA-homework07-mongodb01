@@ -8,7 +8,7 @@ Create a NoSQL design model for an application to manage a library, taking into 
 Create a new DB called `homework07` (Local or DaaS)
 Implement Restful API with Express for all CRUD operations so you may: `Find/FindOne/Add/Delete` documents, use appropriate HTTP verbs for an entity called: `lectures`, document structure is:  
 ```javascript
-{_id, course, lecture}
+lectures = [{_id, course, lecture}]
 ```
 * Test your API using REST Client.  
 * Implement a route (`GET /search/:q`) to search if the lecture name contains the passed `:q` parameter.  
