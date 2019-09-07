@@ -5,7 +5,7 @@ Create a NoSQL design model for an application to manage a library, taking into 
 * Books can be borrowed by students, so the librarian will be able to check all borrowed books and their `return date` so he may contact students who are late returning their books.
   
 ## Coding Exercise
-Create a new DB called `homework07` (Local or DaaS)
+Create a new DB called `homework07` (Local or DaaS)  
 Implement Restful API with Express for all CRUD operations so you may: `Find/FindOne/Add/Delete` documents, use appropriate HTTP verbs for an entity called: `lectures`, document structure is:  
 ```javascript
 lectures = [{_id, course, lecture}]
