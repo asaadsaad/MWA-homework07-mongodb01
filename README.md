@@ -6,11 +6,8 @@ Create a NoSQL design model for an application to manage a library, taking into 
   
 ## Coding Exercise
 Create a new DB called `homework07` (Local or DaaS)  
-Implement Restful API with Express for all CRUD operations so you may: `Find/FindOne/Add/Delete` documents, use appropriate HTTP verbs for an entity called: `lectures`, document structure is:  
-```javascript
-lectures = [{_id, course, lecture}]
-```
+Using the same source code from Homework 06, Update your Restful API with real DB CRUD operations so you may: `Find/FindOne/Add/Delete` documents.
 * Test your API using REST Client.  
-* Implement a route (`GET /search/:q`) to search if the lecture name contains the passed `:q` parameter.  
+* Implement a new route (`GET /search/:q`) to search by student's name if it matches the passed `:q` parameter.  
 * Send the results as JSON.  
 * Upload your code to Github (without dependencies).
