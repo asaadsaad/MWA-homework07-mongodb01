@@ -6,7 +6,7 @@ Create a NoSQL design model for an application to manage a library, taking into 
   
 ## Coding Exercise
 Create a new DB called `homework07` (Local or DaaS)  
-Using the same source code from Homework 06, Update your Restful API with real DB CRUD operations so you may: `Find/FindOne/Add/Delete` documents.
+Using the same source code from `Homework06`, update your Restful API with real DB CRUD operations so you may: `Find/FindOne/Add/Delete` documents.
 * Test your API using REST Client.  
 * Implement a new route (`GET /search/:q`) to search by student's name if it matches the passed `:q` parameter.  
 * Send the results as JSON.  
